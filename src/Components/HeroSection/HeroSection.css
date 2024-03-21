@@ -1,0 +1,276 @@
+.hero-section {
+    background-image: url('../../../public/Images/circuit-bg.png');
+    height: 1024px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+
+}
+
+.ellipse{
+    position: absolute;
+    height: 600px;
+    width: 600px;
+
+    right: 50px;
+    bottom: 0;
+    z-index: 9;
+}
+
+.intro-card {
+    margin-top: 164px;
+    width: 635px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 368px;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.intro-card-heading {
+    color: #FAFAFA;
+    font-size: 64px;
+    font-family: 'CabinetGroteskExtraBold';
+}
+
+.intro-card-subheading {
+    color: rgba(250, 250, 250, 0.8);
+    font-size: 24px;
+    font-family: 'CabinetGroteskRegular';
+}
+
+.intro-card-buttons{
+    display: flex;
+    gap: 48px;
+}
+
+.launch-app-btn{
+    border-radius: 6px;
+    padding: 12px 24px;
+    background-color: #B44201;
+    border: 1px solid #E7651D;
+    color: white;
+    font-size: 24px;
+    font-family: 'CabinetGroteskBold';
+}
+
+.learn-more-btn{
+    border-radius: 6px;
+    padding: 12px 24px;
+    background-color: #090C1C;
+    border: 1px solid rgba(217, 217, 217, 0.6);
+    color: white;
+    font-size: 24px;
+    font-family: 'CabinetGroteskBold';
+}
+
+.add-liquidity-section{
+    display: flex;
+    margin-top: 64px;
+    position: relative;
+    gap: 28px;
+
+    margin-bottom: 20px;
+}
+
+.gain-tags-container{
+    display: flex;
+    flex-direction: column;
+    gap: 133px;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    left: -110.45px;
+
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.add-liquidity-card{
+    width: 584px;
+    background-color: #131625;
+    border-radius: 16px;
+
+    padding: 24px 43px;
+
+    z-index: 10;
+}
+
+.add-liquidity-header{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.add-liquidity-header span{
+    font-family: 'CabinetGroteskBold';
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.add-liquidity-header img{
+    width: 18px;
+    height: 18px;
+}
+
+.tab-btns-container{
+    padding: 4px 12px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2230;
+    border-radius: 12px;
+
+    margin-top: 12px;
+}
+
+.deposit-btn{
+    padding: 8px 24px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    font-size: 16px;
+    background-color: #B44201;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-family: 'CabinetGroteskBold';
+}
+
+.deposit-btn img{
+    width: 24px;
+    height: 24px;
+}
+
+.withdraw-btn{
+    padding: 8px 24px;
+    display: flex;
+    gap: 10px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    align-items: center;
+    background-color: #2A2D3C;
+    font-size: 16px;
+    font-family: 'CabinetGroteskBold'; 
+}
+.withdraw-btn img{
+    width: 24px;
+    height: 24px;
+}
+
+.provide-collateral-div{
+    margin-top: 44px
+}
+
+.provide-collateral-div span{
+    font-size: 12px;
+    font-family: 'CabinetGroteskBold';
+    color: #FFFFFF;
+
+}
+
+.coins-container{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin-top: 10.5px;
+}
+.coin-row-card{
+    background-color: #161926;
+    border-radius: 6px;
+    padding: 4px 16px;
+align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.coin-label{
+    background-color: #1F2230;
+    border-radius: 4px;
+    padding: 8px 24px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #FFFFFF;
+    font-size: 10.14px;
+    font-family: 'CabinetGroteskBold';
+}
+
+.coin-label span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coin-label img{
+   width: 15.21px;
+   height: 15.21px;
+}
+
+.coin-value{
+    font-size: 11.4px;
+    font-family: 'CabinetGroteskExtraBold';
+}
+
+.available-balance-row{
+    display: flex;
+    justify-content: space-between;
+    color: #808080;
+    padding-right: 13px;
+    margin-top: 10px;
+}
+
+.available-balance-row span{
+    color: #808080;
+    font-family: 'CabinetGroteskExtraBold';
+}
+
+.provide-liquidity-btn{
+    width: 481px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 12px 24px;
+    background-color: #B44201;
+
+    border: 1px solid #E7651D;
+
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 6px;
+
+    margin-top: 14px;
+}
+
+.provide-liquidity-btn span{
+    font-family: 'CabinetGroteskBold';
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.gain-tag{
+    padding: 8px 14px;
+    display: flex;
+    gap: 4px;
+
+    background-color: #2C1310;
+    border-radius: 4px;
+    transform: rotate(-30.14deg);
+}
+
+.gain-tag img{
+    transform: rotate(30.14deg);
+}
+
+.gain-tag span{
+    color: #B44201;
+    font-size: 16px;
+    font-family: 'CabinetGroteskBold';
+}

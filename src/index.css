@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'CabinetGroteskBold';
+  src: url(../public/Fonts/CabinetGrotesk-Bold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'CabinetGroteskRegular';
+  src: url(../public/Fonts/CabinetGrotesk-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'CabinetGroteskMedium';
+  src: url(../public/Fonts/CabinetGrotesk-Medium.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'CabinetGroteskExtraBold';
+  src: url(../public/Fonts/CabinetGrotesk-Extrabold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'CabinetGroteskThin';
+  src: url(../public/Fonts/CabinetGrotesk-Thin.otf) format('opentype');
+}
