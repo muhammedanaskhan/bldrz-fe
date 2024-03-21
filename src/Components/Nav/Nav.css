@@ -1,0 +1,77 @@
+.nav {
+    background-color: #010415;
+    display: flex;
+    align-items: center;
+    padding: 32px 120px 0px 120px;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 173px;
+    height: 41px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.linksContainer {
+    padding: 18px 34px;
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    border-radius: 100px;
+    border: 1px solid #303030;
+    background-color: rgba(255, 255, 255, 0.03);
+    font-weight: 600;
+}
+
+.link {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.ham-icon{
+    display: none;
+    width: 24px;
+    height: 24px;
+}
+
+
+.launchAppBtn{
+    border-radius: 6px;
+    padding: 12px 24px;
+    background-color: #B44201;
+    border: 1px solid #E7651D;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .nav {
+        padding: 24px;
+    }
+
+    .linksContainer{
+        display: none;
+    }
+
+    .launchAppBtn{
+        display: none;
+    }
+
+    .logo {
+        width: 136px;
+        height: 34.85px;
+    }
+
+    .ham-icon{
+        display: flex;
+    }
+    
+    
+}
