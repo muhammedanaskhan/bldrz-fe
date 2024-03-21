@@ -1,0 +1,74 @@
+.container {
+    background-color: #090B18;
+    height: 814px;
+    padding-left: 120px;
+    display: flex;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-top: 221px;
+
+}
+
+
+.details-container button {
+    padding: 12px 24px;
+    background-color: #232426;
+    border-radius: 6px;
+    color: #FAFAFA;
+    font-family: 'CabinetGroteskBold';
+    font-size: 24px;
+    width: fit-content;
+    border: none;
+}
+
+.title {
+    font-size: 48px;
+    font-family: 'CabinetGroteskExtraBold';
+    color: #FAFAFA;
+    margin-bottom: 42px;
+}
+
+.header-text {
+    color: rgba(250, 250, 250, 0.8);
+    margin-bottom: 24px;
+    font-family: 'CabinetGroteskRegular';
+    font-family: 24px;
+
+}
+
+.para1 {
+    font-size: 18px;
+    font-family: 'CabinetGroteskRegular';
+    color: rgba(250, 250, 250, 0.8);
+    margin-bottom: 24px;
+    max-width: 447px;
+}
+
+.para2 {
+    font-size: 18px;
+    font-family: 'CabinetGroteskRegular';
+    color: rgba(250, 250, 250, 0.8);
+    margin-bottom: 64px;
+    max-width: 447px;
+}
+
+.chart-container {
+    width: 50%;
+    background-image: url('../../../public/Images/AMMCircuit.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.diagram {
+    width: 401px;
+    height: 418px;
+
+    
+}
