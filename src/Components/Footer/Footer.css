@@ -24,13 +24,11 @@
     background-color: #5C5959;
 }
 
-.footer-content {
+.footer-content-desktop {
     display: flex;
     justify-content: space-between;
     padding-top: 76px;
     width: 100%;
-
-
 }
 
 .quickswap-div {
@@ -72,13 +70,13 @@
     height: 34px;
 }
 
-.right-desktop-div{
+.right-desktop-div {
     display: flex;
     flex-direction: column;
     gap: 160px;
 }
 
-.copyright{
+.copyright {
     color: #808080;
     font-size: 18px;
     font-family: 'CabinetGroteskBold';
@@ -140,11 +138,112 @@
     color: #808080;
 }
 
-.footer-ellipse{
+.footer-ellipse {
     position: absolute;
     bottom: 0;
     left: 0;
 
     width: 600px;
     height: 600px;
+}
+
+
+.footer-content-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 930px) {
+
+    .footer-ellipse {
+        display: none;
+    }
+
+    .footer-ellipse-mobile {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        width: 175px;
+        height: 175px;
+    }
+
+    .footer {
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 255px;
+
+
+    }
+
+    .border {
+        max-width: 354px;
+    }
+
+    .footer-content-desktop {
+        display: none;
+    }
+
+    .footer-content-mobile {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding-top: 99px;
+    }
+
+    .quickswap-div {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-bottom: 76px;
+    }
+
+    .quickswap-div span {
+        font-size: 16px;
+    }
+
+
+    .protocols-and-resources {
+        display: flex;
+        gap: 100px;
+
+        margin-bottom: 84px;
+    }
+
+    .protocols-div span {
+        font-size: 24px;
+    }
+
+    .protocol-link {
+        font-size: 18px;
+    }
+
+
+    .resources-div span {
+        font-size: 24px;
+    }
+
+
+    .resources-link {
+        font-size: 18px;
+    }
+
+
+    .community-div {
+        margin-bottom: 119px;
+    }
+
+    .community-div span {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .community-icons {
+        justify-content: center;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+
 }

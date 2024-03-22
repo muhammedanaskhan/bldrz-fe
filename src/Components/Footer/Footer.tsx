@@ -67,7 +67,7 @@ function Footer() {
     return (
         <div className='footer'>
             <div className='border'></div>
-            <div className='footer-content'>
+            <div className='footer-content-desktop'>
                 <div className="left-desktop-div">
                     <div className='quickswap-div'>
                         <img src='/Images/Logos/quickSwapLogo.png'></img>
@@ -121,6 +121,60 @@ function Footer() {
 
             </div>
             <img className='footer-ellipse' src='/Images/footer-ellipse.png'></img>
+            <img className='footer-ellipse-mobile' src='/Images/ellipse-footer-mobile.png'></img>
+
+
+            <div className="footer-content-mobile">
+                <div className='quickswap-div'>
+                    <img src='/Images/Logos/quickSwapLogo.png'></img>
+                    <span>Oracle Free Perpetual Volatility Trading</span>
+                </div>
+
+                <div className="protocols-and-resources">
+                    <div className="protocols-div">
+                        <span>Protocol</span>
+                        <div className="protocols-links">
+                            {
+                                protocols.map((link) => (
+                                    <a href={link.href} className="protocol-link">
+                                        {link.name}
+                                    </a>
+                                ))
+                            }
+                        </div>
+
+                    </div>
+                    <div className="resources-div">
+                        <span>Resources</span>
+                        <div className="resources-links">
+                            {
+                                resources.map((link) => (
+                                    <a href={link.href} className="resources-link">
+                                        {link.name}
+                                    </a>
+                                ))
+                            }
+                        </div>
+
+                    </div>
+                </div>
+
+                <div className="community-div">
+                    <span>Community</span>
+                    <div className="community-icons">
+                        {
+                            socialLinks.map((link) => (
+                                <a href={link.href} className="community-icon">
+                                    <img src={link.icon}></img>
+                                </a>
+                            ))
+                        }
+                    </div>
+                </div>
+
+                <span className='copyright'>© 2023 GammaSwap Labs LLC.</span>
+
+            </div>
 
         </div>
     )
