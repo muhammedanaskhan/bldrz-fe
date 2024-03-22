@@ -6,6 +6,7 @@ import LiquidityInfoSection from './Components/LiquidityInfoSection/LiquidityInf
 import MultipleAMMs from './Components/MultipleAMMs/MultipleAMMs';
 import Explore from './Components/Explore/Explore';
 import Footer from './Components/Footer/Footer';
+import Perpetuals from './Components/Perpetuals/Perpetuals';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Nav />
       <HeroSection/>
       <LiquidityInfoSection/>
+      <Perpetuals/>
       <MultipleAMMs/>
       <Explore/>
       <Footer/>

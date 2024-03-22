@@ -77,16 +77,16 @@
     .container {
         background-color: #090B18;
         height: auto;
-        padding-left: 24px;
+       padding-left: 0;
         flex-direction: column;
     }
 
     .details-container {
         display: flex;
         flex-direction: column;
-        width: 100%;
         padding-top: 64px;
-
+        width: auto !important;
+        padding-left: 24px;
         margin-bottom: 56px;
 
     }

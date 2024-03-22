@@ -12,7 +12,7 @@
 
 }
 
-.ellipse{
+.ellipse {
     position: absolute;
     height: 600px;
     width: 600px;
@@ -30,7 +30,7 @@
     flex-direction: column;
     height: 368px;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
 }
 
 .intro-card-heading {
@@ -45,12 +45,12 @@
     font-family: 'CabinetGroteskRegular';
 }
 
-.intro-card-buttons{
+.intro-card-buttons {
     display: flex;
     gap: 48px;
 }
 
-.launch-app-btn{
+.launch-app-btn {
     border-radius: 6px;
     padding: 12px 24px;
     background-color: #B44201;
@@ -60,7 +60,7 @@
     font-family: 'CabinetGroteskBold';
 }
 
-.learn-more-btn{
+.learn-more-btn {
     border-radius: 6px;
     padding: 12px 24px;
     background-color: #090C1C;
@@ -70,7 +70,7 @@
     font-family: 'CabinetGroteskBold';
 }
 
-.add-liquidity-section{
+.add-liquidity-section {
     display: flex;
     margin-top: 64px;
     position: relative;
@@ -79,7 +79,7 @@
     margin-bottom: 20px;
 }
 
-.gain-tags-container{
+.gain-tags-container {
     display: flex;
     flex-direction: column;
     gap: 133px;
@@ -94,7 +94,7 @@
     margin: auto;
 }
 
-.add-liquidity-card{
+.add-liquidity-card {
     width: 584px;
     background-color: #131625;
     border-radius: 16px;
@@ -104,24 +104,24 @@
     z-index: 10;
 }
 
-.add-liquidity-header{
+.add-liquidity-header {
     display: flex;
     align-items: center;
     gap: 6px;
 }
 
-.add-liquidity-header span{
+.add-liquidity-header span {
     font-family: 'CabinetGroteskBold';
     font-size: 22px;
     color: #FFFFFF;
 }
 
-.add-liquidity-header img{
+.add-liquidity-header img {
     width: 18px;
     height: 18px;
 }
 
-.tab-btns-container{
+.tab-btns-container {
     padding: 4px 12px;
     display: flex;
     justify-content: space-between;
@@ -131,7 +131,7 @@
     margin-top: 12px;
 }
 
-.deposit-btn{
+.deposit-btn {
     padding: 8px 24px;
     display: flex;
     gap: 4px;
@@ -143,12 +143,12 @@
     font-family: 'CabinetGroteskBold';
 }
 
-.deposit-btn img{
+.deposit-btn img {
     width: 24px;
     height: 24px;
 }
 
-.withdraw-btn{
+.withdraw-btn {
     padding: 8px 24px;
     display: flex;
     gap: 10px;
@@ -157,40 +157,42 @@
     align-items: center;
     background-color: #2A2D3C;
     font-size: 16px;
-    font-family: 'CabinetGroteskBold'; 
+    font-family: 'CabinetGroteskBold';
 }
-.withdraw-btn img{
+
+.withdraw-btn img {
     width: 24px;
     height: 24px;
 }
 
-.provide-collateral-div{
+.provide-collateral-div {
     margin-top: 44px
 }
 
-.provide-collateral-div span{
+.provide-collateral-div span {
     font-size: 12px;
     font-family: 'CabinetGroteskBold';
     color: #FFFFFF;
 
 }
 
-.coins-container{
+.coins-container {
     display: flex;
     flex-direction: column;
     gap: 22px;
     margin-top: 10.5px;
 }
-.coin-row-card{
+
+.coin-row-card {
     background-color: #161926;
     border-radius: 6px;
     padding: 4px 16px;
-align-items: center;
+    align-items: center;
     display: flex;
     justify-content: space-between;
 }
 
-.coin-label{
+.coin-label {
     background-color: #1F2230;
     border-radius: 4px;
     padding: 8px 24px;
@@ -202,23 +204,23 @@ align-items: center;
     font-family: 'CabinetGroteskBold';
 }
 
-.coin-label span{
+.coin-label span {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.coin-label img{
-   width: 15.21px;
-   height: 15.21px;
+.coin-label img {
+    width: 15.21px;
+    height: 15.21px;
 }
 
-.coin-value{
+.coin-value {
     font-size: 11.4px;
     font-family: 'CabinetGroteskExtraBold';
 }
 
-.available-balance-row{
+.available-balance-row {
     display: flex;
     justify-content: space-between;
     color: #808080;
@@ -226,12 +228,13 @@ align-items: center;
     margin-top: 10px;
 }
 
-.available-balance-row span{
+.available-balance-row span {
     color: #808080;
     font-family: 'CabinetGroteskExtraBold';
+    font-size: 12px;
 }
 
-.provide-liquidity-btn{
+.provide-liquidity-btn {
     width: 481px;
     display: flex;
     justify-content: center;
@@ -250,12 +253,13 @@ align-items: center;
     margin-top: 14px;
 }
 
-.provide-liquidity-btn span{
+.provide-liquidity-btn span {
     font-family: 'CabinetGroteskBold';
     font-size: 18px;
     color: #FFFFFF;
 }
-.gain-tag{
+
+.gain-tag {
     padding: 8px 14px;
     display: flex;
     gap: 4px;
@@ -265,12 +269,169 @@ align-items: center;
     transform: rotate(-30.14deg);
 }
 
-.gain-tag img{
+.gain-tag img {
     transform: rotate(30.14deg);
 }
 
-.gain-tag span{
+.gain-tag span {
     color: #B44201;
     font-size: 16px;
     font-family: 'CabinetGroteskBold';
+}
+
+@media screen and (max-width: 1200px) {
+    .hero-section {
+        height: 881px;
+    }
+
+    .intro-card {
+        margin-top: 78px;
+        width: 364px;
+        height: 244px;
+    }
+
+    .intro-card-heading {
+        font-size: 24px;
+    }
+
+    .intro-card-subheading {
+        font-size: 18px;
+    }
+
+    .launch-app-btn {
+        font-size: 16px;
+    }
+
+    .learn-more-btn {
+        font-size: 16px;
+    }
+
+    .add-liquidity-section {
+        display: flex;
+        /* margin-top: 72px; */
+        position: relative;
+        gap: 28px;
+        height: 100%;
+        flex-direction: column-reverse;
+        margin-bottom: 0px;
+        justify-content: flex-end;
+    }
+
+    .gain-tags-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        position: static;
+        height: 40px;
+        margin-top: 0 !important;
+        bottom: 0 !important;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+
+    .ellipse {
+        position: absolute;
+        height: 400px;
+        width: 400px;
+
+        right: 0;
+        bottom: 50px;
+        left: 0;
+        margin: auto;
+        z-index: 9;
+    }
+
+    .add-liquidity-card {
+        width: 370px;
+        border-radius: 10.14px;
+        padding: 15.21px 27.24px;
+    }
+
+    .add-liquidity-header {
+        gap: 4px;
+    }
+
+    .add-liquidity-header span {
+        font-size: 11.4px;
+    }
+
+    .add-liquidity-header img {
+        width: 11.4px;
+        height: 11.4px;
+    }
+
+    .tab-btns-container {
+        padding: 3px 8px;
+        border-radius: 7.6px;
+    }
+
+
+    .deposit-btn {
+        padding: 5px 15px;
+        gap: 3px;
+        font-size: 10.14px;
+        border-radius: 2.53px;
+    }
+
+    .deposit-btn img {
+        width: 15.21px;
+        height: 15.21px;
+    }
+
+    .withdraw-btn {
+        padding: 5px 15px;
+        gap: 6px;
+        font-size: 10.14px;
+        border-radius: 3.8px;
+    }
+
+    .withdraw-btn img {
+        width: 15.21px;
+        height: 15.21px;
+    }
+
+    .provide-collateral-div {
+        margin-top: 28px
+    }
+
+    .provide-collateral-div span {
+        font-size: 7.6px;
+    }
+
+    .coins-container {
+        gap: 7.5px;
+        margin-top: 8px;
+    }
+
+    .coin-row-card {
+        background-color: #161926;
+        border-radius: 3.8px;
+        padding: 2.5px 16.47px;
+    }
+
+    .coin-label {
+        border-radius: 2.5px;
+        padding: 5px 15px;
+    }
+
+    .available-balance-row {
+        margin-top: 7.5px;
+    }
+
+    .available-balance-row span {
+        font-size: 7.6px;
+    }
+
+
+    .provide-liquidity-btn {
+        width: 304.74px;
+        padding: 8px 15px;
+        border-radius: 3.8px;
+        margin-top: 30px;
+    }
+
+
+
 }

@@ -16,6 +16,7 @@ function HeroSection() {
             coinBalance: '2234.12 USDC',
         }
     ]
+    
     return (
         <div className='hero-section'>
             <div className="intro-card">

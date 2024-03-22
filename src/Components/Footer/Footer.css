@@ -147,6 +147,10 @@
     height: 600px;
 }
 
+.footer-ellipse-mobile {
+display: none;
+}
+
 
 .footer-content-mobile {
     display: none;
@@ -162,9 +166,10 @@
         position: absolute;
         bottom: 0;
         left: 0;
+        display: flex;
 
-        width: 175px;
-        height: 175px;
+        width: 275px;
+        height: 275px;
     }
 
     .footer {
