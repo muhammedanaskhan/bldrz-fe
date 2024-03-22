@@ -37,17 +37,62 @@
     color: #FAFAFA;
     font-size: 64px;
     font-family: 'CabinetGroteskExtraBold';
+
+    opacity: 0;
+    transform: translateY(20px);
+    /* Initially translate down by 20px */
+    animation: fadeInAnimation 1s ease-in forwards;
+}
+
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+        /* Start from translated down position */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        /* Translate to original position */
+    }
 }
 
 .intro-card-subheading {
     color: rgba(250, 250, 250, 0.8);
     font-size: 24px;
     font-family: 'CabinetGroteskRegular';
+
+    opacity: 0;
+    transform: translateY(20px);
+    /* Initially translate down by 20px */
+    animation: fadeInAnimation 1s ease-in forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+        /* Start from translated down position */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        /* Translate to original position */
+    }
 }
 
 .intro-card-buttons {
     display: flex;
     gap: 48px;
+
+
+    opacity: 0;
+    transform: translateY(20px);
+    /* Initially translate down by 20px */
+    animation: fadeInAnimation 1s ease-in forwards;
 }
 
 .launch-app-btn {
@@ -58,6 +103,13 @@
     color: white;
     font-size: 24px;
     font-family: 'CabinetGroteskBold';
+
+    transition: .1s ease-in-out 0s;
+}
+
+.launch-app-btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 .learn-more-btn {
@@ -68,6 +120,13 @@
     color: white;
     font-size: 24px;
     font-family: 'CabinetGroteskBold';
+
+    transition: .2s ease-in-out 0s;
+}
+
+.learn-more-btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 .add-liquidity-section {
@@ -102,6 +161,11 @@
     padding: 24px 43px;
 
     z-index: 10;
+
+    opacity: 0;
+    transform: translateY(20px);
+    /* Initially translate down by 20px */
+    animation: fadeInAnimation 1s ease-in forwards;
 }
 
 .add-liquidity-header {
@@ -433,5 +497,34 @@
     }
 
 
+
+}
+
+
+@media screen and (max-width: 430px) {
+    .add-liquidity-card {
+        width: 250px;
+        border-radius: 10.14px;
+        padding: 15.21px 27.24px;
+    }
+
+    .provide-liquidity-btn {
+        width: 204.74px;
+        padding: 8px 15px;
+        border-radius: 3.8px;
+        margin-top: 30px;
+    }
+
+    .ellipse {
+        position: absolute;
+        height: 300px;
+        width: 300px;
+
+        right: 0;
+        bottom: 50px;
+        left: 0;
+        margin: auto;
+        z-index: 9;
+    }
 
 }
