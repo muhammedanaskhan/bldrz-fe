@@ -70,5 +70,62 @@
     width: 401px;
     height: 418px;
 
-    
+
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        background-color: #090B18;
+        height: auto;
+        padding-left: 24px;
+        flex-direction: column;
+    }
+
+    .details-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 64px;
+
+        margin-bottom: 56px;
+
+    }
+
+    .details-container button {
+        font-size: 16px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .header-text {
+        font-family: 18px;
+    }
+
+    .para1 {
+        font-size: 16px;
+        max-width: 330px;
+    }
+
+    .para2 {
+        font-size: 16px;
+        max-width: 330px;
+    }
+
+
+    .chart-container {
+        width: 100%;
+        background-image: url('../../../public/Images/AMM-mobile-circuit.png');
+        height: 595px;
+
+        margin-bottom: 125px;
+    }
+
+    .diagram {
+        width: 370px;
+        height: 385.69px;
+    }
+
+
 }
