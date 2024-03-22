@@ -76,6 +76,7 @@
     left: 0;
     right: 0;
     margin: auto;
+    mix-blend-mode: hard-light;
 }
 
 .coin2 {
@@ -83,6 +84,7 @@
     height: 600px;
     position: absolute;
     top: 135px;
+    mix-blend-mode: hard-light;
 }
 
 @media screen and (max-width: 1200px) {

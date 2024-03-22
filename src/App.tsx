@@ -4,6 +4,7 @@ import Nav from './Components/Nav/Nav';
 import HeroSection from './Components/HeroSection/HeroSection';
 import LiquidityInfoSection from './Components/LiquidityInfoSection/LiquidityInfoSection';
 import MultipleAMMs from './Components/MultipleAMMs/MultipleAMMs';
+import Explore from './Components/Explore/Explore';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <HeroSection/>
       <LiquidityInfoSection/>
       <MultipleAMMs/>
+      <Explore/>
     </div>
   );
 }

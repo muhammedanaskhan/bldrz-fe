@@ -1,0 +1,180 @@
+.explore-container {
+    padding-top: 113.5px;
+    padding-bottom: 61px;
+    background-color: #090B18;
+    display: flex;
+    justify-content: center;
+    padding-left: 132px;
+    padding-right: 132px;
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    max-width: 1175px;
+    height: 369px;
+    border-radius: 20px;
+    padding-left: 121px;
+
+    display: flex;
+}
+
+.card-bg {
+    border-radius: 20px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    margin: auto;
+    background-image: linear-gradient(to bottom, #B9B9B9, #8A8585);
+    opacity: 0.17;
+}
+
+.card-content {
+    width: 100%;
+    height: 100%;
+
+
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.discover-title {
+    color: #D66A1E;
+    font-size: 48px;
+    font-family: 'CabinetGroteskExtraBold';
+    width: fit-content;
+}
+
+.para {
+    max-width: 441px;
+    color: #FAFAFA;
+    font-size: 'CabinetGroteskRegular';
+    font-size: 24px;
+}
+
+
+.card-content button {
+    padding: 12px 24px;
+    background-color: #232426;
+    border-radius: 6px;
+    color: #FAFAFA;
+    font-family: 'CabinetGroteskBold';
+    font-size: 24px;
+    width: fit-content;
+    border: none;
+}
+
+.explore-coins-div {
+    position: absolute;
+    width: 350px;
+    height: 437px;
+    right: 18px;
+}
+
+.explore-coin1 {
+    width: 175px;
+    height: 178.37px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    mix-blend-mode: hard-light;
+}
+
+
+.explore-coin2 {
+    width: 350px;
+    height: 356.73px;
+    position: absolute;
+    top: 80.27px;
+    mix-blend-mode: hard-light;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .explore-container {
+        padding-top: 64px;
+        padding-bottom: 61px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .card-bg{
+        height: 507px;
+        
+    }
+
+    .card {
+        max-width: 380px;
+        height: 443px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 28px !important;
+        padding-right: 28px !important;
+
+        padding-top: 64px;
+    }
+
+    .card-content {
+        text-align: center;
+        justify-content: flex-start;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        height: auto;
+        align-items: center;
+        
+    }
+
+    .card-content button {
+        font-size: 16px;
+    }
+
+
+
+    .discover-title {
+        color: #D66A1E;
+        font-size: 24px;
+        font-family: 'CabinetGroteskExtraBold';
+        width: 100%;
+    }
+
+    .para {
+        max-width: 301px;
+        color: #FAFAFA;
+        font-size: 'CabinetGroteskRegular';
+        font-size: 16px;
+    }
+
+
+    .explore-coins-div {
+        width: 200px;
+        height: 249.71px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 257px;
+    }
+
+    .explore-coin1 {
+        width: 100px;
+        height: 101.92px;
+    }
+
+
+    .explore-coin2 {
+        width: 200px;
+        height: 203.85px;
+        position: absolute;
+        top: 46px;
+        mix-blend-mode: hard-light;
+    }
+
+}
